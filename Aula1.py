@@ -1,0 +1,5 @@
+nome = input("qual seu nome? ")
+idade = int(input("idade? "))
+print("sua ficha é: ") 
+print("NOME:",nome)
+print("IDADE:",idade)  
