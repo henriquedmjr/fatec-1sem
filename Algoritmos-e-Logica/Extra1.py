@@ -15,4 +15,5 @@ def buscar_arquivo(pasta, alvo):
                 print(f"ACHEI! está em: {caminho_completo}")
                 
 
-buscar_arquivo("/home/henriqreal/Downloads", "blablacarultra.md")
+arquivo = input("Digite o nome do arquivo que deseja encontrar: ")
+resultado_final = buscar_arquivo(os.path.expanduser("~"), arquivo)

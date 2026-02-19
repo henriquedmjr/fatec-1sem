@@ -25,7 +25,8 @@ def explorar(caminho, alvo, nivel=0):
     return []
 
 print("--- Iniciando Busca ---")
-resultado_final = explorar("/home/", "blablacarultra.md")
+arquivo = input("Digite o nome do arquivo que deseja encontrar: ")
+resultado_final = explorar(os.path.expanduser("~"), arquivo)
 
 if resultado_final:
     print("Caminho encontrado:")
